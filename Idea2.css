@@ -1,0 +1,217 @@
+body{
+    background-color: rgb(228, 224, 228);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.img1{
+    height: 70px;
+    width: 80px;
+   
+}
+img:hover{
+    cursor: pointer;
+}
+#navbar{
+    display: flex;
+    /* background-color: rgb(135, 189, 252); */
+    width: 99.9%;
+    height: 65px;
+    
+    
+}
+label{
+    padding: 25px 7px;
+}
+h1{
+    padding: 15px;
+    font-family: cursive;
+}
+
+ .nav{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 160px;
+
+    
+}
+option{
+    padding-top: 90px;
+}
+ul li a{
+    padding: 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.search{
+    padding: 12px;
+    
+}
+.search input{
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 11px;
+    color: aqua;
+}
+.img2{
+    height: 25px;
+    width: 25px;
+    padding-top: 16px;
+}
+.img3{
+    height: 25px;
+    width: 25px;
+    padding-top: 14px;
+    padding-left: 30px;
+}
+#Agent{
+    height: 25px;
+    
+}
+
+/* bg part */
+
+#bg{
+    display: flex;
+    flex-direction: column;
+    content: "";
+    width: 99.95%;
+    height: 550px;
+    background: url('images/transport-5332224_1920.jpg')no-repeat center center/cover;
+    position: block;
+    justify-content: center;
+    z-index: -1;
+    border-bottom: 2px solid black;
+}
+#h-primary{
+    color: rgb(236, 236, 236);
+    text-align: center;
+    padding: 0px;
+    
+}
+.btn{
+    padding: 6px 20px;
+    margin-top: 382px;
+    margin-left: 540px;
+    justify-content: center;
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(197, 107, 107);
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    width: 230px;
+    box-shadow: 5px 4px 7px 2px black;
+    
+}
+.vehicles img{
+    width: 250px;
+    height: 170px;
+}
+.box1{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: blue;
+    border-radius: 30px;
+    box-shadow: 5px 4px 7px 2px black;
+}
+.box2{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 0, 55);
+    border-radius: 30px;
+    box-shadow: 5px 4px 7px 2px black;
+}
+.box3{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(67, 180, 255);
+    border-radius: 30px;
+    box-shadow: 5px 4px 7px 2px black;
+}
+.vehicles{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    grid-gap: 40px;
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+    
+}
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.japan{
+    height: 600px;
+    width: 750px;
+    border: 2px solid rgb(255, 85, 246);
+    border-radius: 30px;
+    box-shadow: 5px 4px 7px 2px black;
+   
+}
+.spain{
+    height: 270px;
+    width: 505px;
+    border: 2px solid rgb(209, 120, 4);
+    border-radius: 30px;
+    box-shadow: 5px  7px 2px black;
+}
+.russia{
+    height: 325px;
+    width: 505px;
+    border: 2px solid rgb(233, 255, 255);
+    border-radius: 30px;
+    box-shadow: 5px 4px 7px 2px black;
+    
+}
+.recomendation{
+    display: grid;
+    
+    grid-template-areas: 
+    'box4 box4 box5 box5'
+    'box4 box4 box6 box6'
+    'box4 box4 box6 box6';
+
+}
+.box4{
+    grid-area: box4;
+    padding-left: 40px;
+}
+.box5{
+    grid-area: box5;
+    
+}
+.box6{
+    grid-area: box6;
+    
+}
+
+/* Footer */
+
+
+.footer{
+    padding: 20px;
+    width: 380px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1.05rem;
+    
+}
+.h-footer{
+    padding-left: 420px;
+    padding-bottom: 100px;
+}
+.btn2{
+    padding: 20px;
+    background-color: rgb(172, 100, 100);
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 1.04rem;
+}
+.hfooter{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
